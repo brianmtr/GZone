@@ -1,0 +1,215 @@
+*{
+    margin: 0 auto; 
+}
+body{
+    background-image: url(image/un-parc-dattractions-dedie-aux-jeux-video-a-nimes-dici-2020_u6pv\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* header */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    bottom: 265px;
+    font-size: 20px;
+    z-index: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .navitem-user{
+      margin-left: 100px;
+  }
+
+  li img{
+      width: 70px;
+      margin-top: 10px;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo{
+      position: relative;
+      z-index: 1;
+  }
+
+  .poppy-header{ 
+      padding-left: 60%;
+  }
+  
+  .bar{
+      background-color: #282C53;   
+      height: 10px;
+      margin-top: 7%;
+  }
+
+  .pictureHome{
+      padding-top: 5%;
+  
+  }
+
+  .pictureHome img{
+      width: 400px;
+      padding-left: 10%;
+  }
+
+  .center-picture-home{
+    padding-bottom: 300px;
+  }
+
+  .boxHomePicture{
+      width: 100%;
+      padding-top: 5%;
+      background-color: #282C53;
+      margin-top: 100px;
+      padding-bottom: 5%;
+  }
+
+  .boxHomePicture img{
+    width: 400px;
+    padding-left: 10%;
+    
+  }
+
+  .center-box-picture-home{
+    padding-top: 300px;
+  }
+
+  .ext-box-picture-home{
+    padding-bottom: 300px;
+  }
+
+  h1{
+      margin-left: 10%;
+      font-size: 65px;
+      position: relative;
+      top: 100px;
+      color: #282C53;
+  }
+
+  .containerHome{
+      display: flex;
+      padding-bottom: 50px;
+  }
+
+  .textDescription{
+      font-size: 30px;
+      width: 30%;
+      position: relative;
+      top: 100px;
+      left: 300px;
+  }
+
+  .boxEffectif{
+      background-color: #282C53;
+      width: 100%;
+      height: 10px;
+      margin-top: 5%;
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+  }
+
+
+  
+
+  .box-effectif-element{
+      display: flex;
+      flex-direction: column;
+      font-size: 50px;
+      padding-top: 
+      30px;
+  }
+
+  .box-effectif-element p{
+    padding-bottom: 100px;
+    color: #F6CD40;
+    font-weight: bold;
+  }
+  
+  h2{
+    margin-left: 10%;
+    font-size: 65px;
+    color: #282C53;
+}
+
+.allGames{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.backToTop{
+    margin-left: 90%;
+}
+
+footer{
+    width: 100%;
+    background-color: #282C53;
+}
+
+.firstBoxFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+} 
+
+.firstBoxFooter a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.OpenHours{
+    padding-left: 85%;
+    color: #fff;
+    margin: 3% 0% ;
+}
+
+
+
+
+
+.footerDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cgvMl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.cgvMl a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer a:hover{
+    color: #F6CD40;
+}

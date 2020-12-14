@@ -1,0 +1,209 @@
+*{
+    margin: 0 auto; 
+}
+body{
+    background-image: url(image/background-attraction.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+/* header */
+header{
+    height: 1100px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    bottom: 265px;
+    font-size: 20px;
+    z-index: 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .navitem-user{
+      margin-left: 100px;
+  }
+
+  li img{
+      width: 70px;
+      margin-top: 10px;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo{
+      position: relative;
+      z-index: 1;
+  }
+  
+  .bar{
+      background-color: #282C53;   
+      height: 10px;
+      margin-top: 7%;
+  }
+
+  .poppyTeam img{
+    margin-left: 35%;
+  }
+
+  .containerLeft{
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      margin-top: 15%;
+  }
+
+  .containerLeft img{
+      margin-top: 5%;
+    margin-left: 10%;
+    
+  }
+
+  .containerLeft p{
+      width: 50%;
+      font-size: 25px;
+      text-align: justify;
+  }
+
+  .more_infos{
+      width: 15%;
+      height: 50px;
+      position: relative;
+      top: 400px;
+      right: 200px;
+      
+      color: #282C53;
+      font-weight: bold;
+      font-size: 25px;
+      border-radius: 10px;
+  }
+
+  .more_infos:hover{
+      color: #F6CD40;
+        text-decoration: none;
+  }
+
+  .containerRight{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    padding: 10% 0%;
+      
+  }
+
+  .containerRight img{
+    margin-top: 5%;
+  margin-left: 10%;
+  
+}
+
+.containerRight p{
+    width: 50%;
+    font-size: 25px;
+    text-align: justify;
+    color: #fff;
+}
+
+ .boxBlue{
+     background-color: #282C53;
+
+ }
+ 
+ .more_infos_right{
+    width: 15%;
+    height: 50px;
+    position: relative;
+    top: 400px;
+    right: 200px;
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+ }
+
+ .more_infos_right:hover{
+    color: #F6CD40;
+      text-decoration: none;
+}
+
+/* footer */
+
+.backToTop{
+    margin-left: 90%;
+}
+
+footer{
+    width: 100%;
+    background-color: #282C53;
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+.firstBoxFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3%;
+} 
+
+.firstBoxFooter a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.OpenHours{
+    padding-left: 80%;
+    color: #fff;
+    margin: 3% 0% ;
+}
+
+
+
+
+
+.footerDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cgvMl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.cgvMl a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer a:hover{
+    color: #F6CD40;
+}

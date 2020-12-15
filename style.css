@@ -54,6 +54,8 @@ ul {
   .poppy-header{ 
       padding-left: 60%;
   }
+
+
   
   .bar{
       background-color: #282C53;   
@@ -185,7 +187,28 @@ footer{
     margin: 3% 0% ;
 }
 
+.reseaux img{
+    
+    margin-left: 20px;
+}
 
+.twitterPicture, 
+.facebookPicture, 
+.youtubePicture{
+    width: 40px;
+}
+
+
+
+.instagramPicture{
+    width: 35px;
+}
+
+
+
+.mailPicture{
+    width: 50px;
+}
 
 
 
@@ -212,4 +235,138 @@ footer{
 
 footer a:hover{
     color: #F6CD40;
+}
+
+@media screen and (max-width: 1900px){
+
+
+.boxHomePicture img{
+    width: 20%;
+}
+
+.pictureHome img{
+    width: 20%;
+}
+
+.bar{
+    position: relative;
+    bottom: 70px;
+}
+
+.backToTop{
+    margin-left: 85%;
+}
+}
+
+@media screen and (max-width: 1600px){
+    body{
+        background-color: red;
+    }
+    .textDescription p{
+        font-size: 25px;
+    }
+
+    .poppy-header img{
+        position: relative;
+        right: 100px;
+        width: 500px;
+    }
+    .bar{
+        bottom: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 1500px){
+    .bar{
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .bar{
+        bottom: 120px;
+    }
+
+    .poppy-header img{
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .bar{
+        bottom: 170px;
+    }
+
+    .poppy-header img{
+        bottom: 100px;
+    }
+
+    .poppyPicture img{
+        display: none;
+    }
+
+    .textDescription p{
+        font-size: 20px;
+        margin-bottom: 200px;
+        
+    }
+
+    .box-effectif-element p{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .poppy-header img{
+        bottom: 150px;
+    }
+
+    .bar{
+        bottom: 210px;
+    }
+    .pictureHome{
+        padding-top: 0%;
+    }
+
+    h1, h2{
+        font-size: 40px;
+    }
+
+    .navbar{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .poppy-header img{
+        bottom: 220px;
+    }
+
+    .bar{
+        bottom: 260px;
+    }
+
+    .backToTop {
+        width: 10%;
+    }
+
+    .box-effectif-element p{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .navbar{
+        display: none;
+    }
+
+    .poppy-header{
+        height: 300px;
+    }
+
+    .bar{
+        bottom: 120px;
+    }
 }

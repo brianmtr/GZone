@@ -152,9 +152,14 @@ ul {
   /* footer */ /* footer */ /* footer */ /* footer */
 
   .backToTop {
-    margin-left: 90%;
+    margin-left: 85%;
     position: relative;
     top: 50px;
+    
+}
+
+.backToTop img{
+width: 50%;
 }
 
 footer {
@@ -350,6 +355,9 @@ footer a:hover{
     .containerRight p,
     .containerLeft p {
         font-size: 15px;
+    }
+    .backToTop img {
+        width: 90%;
     }
 }
 

@@ -259,9 +259,7 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1600px){
-    body{
-        background-color: red;
-    }
+
     .textDescription p{
         font-size: 25px;
     }
@@ -358,9 +356,9 @@ footer a:hover{
 }
 
 @media screen and (max-width: 980px){
-    .navbar{
+    /* .navbar{
         display: none;
-    }
+    } */
 
     .poppy-header{
         height: 300px;
@@ -368,5 +366,236 @@ footer a:hover{
 
     .bar{
         bottom: 120px;
+    }
+
+    .reseaux img{
+    
+        margin-left: 10px;
+    }
+    
+    .twitterPicture, 
+    .facebookPicture, 
+    .youtubePicture{
+        width: 30px;
+    }
+    
+    
+    
+    .instagramPicture{
+        width: 25px;
+    }
+    
+    
+    
+    .mailPicture{
+        width: 40px;
+    }
+
+   .OpenHours  {
+       padding-left: 75%;
+   }
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    .poppy-header img{
+        width: 90%;
+        top: 50px;
+    }
+    .bar{
+        bottom: 50px;
+    }
+
+    header{
+        height: 100px;
+    }
+
+    .pictureHome{
+        width: 100%;
+    }
+
+    .pictureHome img{
+        display: flex;
+       padding-left: 0%;
+       margin: 0% 34%;
+    }
+
+    .center-picture-home{
+        padding-bottom: 0;
+    }
+
+    .boxHomePicture{
+        width: 100%;
+    }
+
+    .boxHomePicture img{
+        display: flex;
+        padding-left: 0%;
+        margin: 0% 34%;
+    }
+
+    .center-box-picture-home{
+        padding-top: 0px;
+        
+    }
+
+    .ext-box-picture-home{
+        padding-bottom: 0px;
+    }
+
+    .textDescription{
+        position: relative;
+        left: 10%;
+    }
+
+    .textDescription p{
+        font-size: 15px;
+        text-align: justify;
+        width: 150%;
+    }
+
+
+    .boxEffectif{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .box-effectif-element p{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .box-effectif-element{
+        margin-right: 40%;
+        width: 30%;
+    }
+
+    .containerHome {
+        padding-right: 10%;
+    }
+    .allGames img{
+        width: 12%;
+    }
+
+    .allGames{
+        margin-right: 10%;
+    }
+
+    .backToTop{
+        margin-left: 70%;
+        margin-top: 50px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .poppyPicture{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* .poppy-header img{
+       top: 0px;
+    } */
+
+    .poppy-header{
+        height: 200px;
+    }
+
+    .bar{
+        bottom: 80px;
+    }
+
+    .pictureHome img {
+        padding-left: 6%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .boxHomePicture img{
+        padding-left: 6%;
+    }
+
+    .textDescription{
+        left: 0%;
+        width: 100%;
+    }
+    .textDescription p{
+        width: 80%;
+    }
+
+    .backToTop {
+        margin-left: 80%;
+        
+    }
+
+    footer{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        height: none;
+        text-align: center;
+        
+    }
+
+    .firstBoxFooter{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .OpenHours{
+        padding-left: 0%;
+        padding-bottom: 20px;
+    }
+
+    .cgvMl{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .reseaux{
+        padding-bottom: 20px;
+    }
+
+    .footerDown{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box-effectif-element{
+        margin-right: 35%;
+    }
+
+    .allGames{
+        margin-right: 0%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .logo{
+        width: 100px;
+    }
+
+    .poppy-header{
+        height: 100px;
+        
+    }
+
+    .poppy-header img{
+        top: -25px;
+        left: 2px;
+    }
+
+    .bar{
+        bottom: 30px;
     }
 }

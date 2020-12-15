@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calendar.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_home">
+		
+				<img class="logo" src="image/logo-header.png" alt="logo GAME ZONE">
+			
+			<ul class="navbar"> 
+                <li class="navitem">
+					<img src="image/gaming_snake.png"">
+				</li>
+                <li class="navitem-user">
+					<a href="">Brian mtr</a>
+                </li>
+
+                <li class="navitem">
+					<a href="contact.html">Infos</a>
+                </li>
+                <li class="navitem">
+					<a href="contact.html">Préparer ma visite</a>
+                </li>
+				<li class="navitem">
+					<a href="contact.html">My game</a>
+                </li>
+				<li class="navitem">
+					<a href="aller.html">Le plan</a>
+                </li>
+                <li class="navitem">
+					<a href="stages.html">Les attractions</a>
+				</li>
+				<li class="navitem">
+					<a href="">Le parc</a>
+                </li>
+
+			</ul>
+        </nav>
+        <div class="boxBlueHeader">
+            <h1>Horaire et calendrier</h1>
+        </div>
+    </header>
+    <div class="flex-box">
+        
+          <!--  -->
+          <div class="calendar disable-selection" id="calendar">
+            <div class="left-side">
+              <div class="current-day text-center">
+                <h1 class="calendar-left-side-day"></h1>
+                <div class="calendar-left-side-day-of-week"></div>
+              </div>
+              <!-- Gauche Titre Horaire-->
+              <div class="current-day-events">
+                <!-- <div>Bienvenue sur Game Zone:</div> -->
+                <ul class="current-day-events-list"></ul>
+                <!-- <div>
+        
+                  <pre>les horaires d’ouverture et de fermeture du jour.
+        
+        Du lundi au jeudi : 9h-19h
+        
+        Du vendredi au samedi : 9h-20h
+        
+        Le dimanche : 9h – 18h
+                  </pre></div> -->
+                  <div class="text-day">
+                    <pre>les horaires d’ouverture et de fermeture du jour.
+                    Du lundi au jeudi : 9h-19h
+                    Du vendredi au samedi : 9h-20h
+                    Le dimanche : 9h – 18h
+                    </pre>
+                  </div>
+                </div>
+                <div class="add-event-day">
+                  <!-- <input type="text" class="add-event-day-field" placeholder="Voici les événement"> -->
+                  <span class="add-event-day-field-btn"></span>
+                </div>
+              </div>
+              <!-- Droite jour mois année -->
+              <!-- Ce sont les années -->
+              <div class="right-side">
+                <div class="text-right calendar-change-year">
+                  <div class="calendar-change-year-slider">
+                    <span class="fa fa-caret-left cursor-pointer calendar-change-year-slider-prev"></span>
+                    <span class="calendar-current-year"></span>
+                    <span class="fa fa-caret-right cursor-pointer calendar-change-year-slider-next"></span>
+                  </div>
+                </div>
+                <!-- Cibler les mois -->
+                <div class="calendar-month-list">
+                  <ul class="calendar-month"></ul>
+                </div>
+                <!-- Cibler les semaines -->
+                <div class="calendar-week-list">
+                  <ul class="calendar-week"></ul>
+                </div>
+                <!-- Cibler le jour  -->
+                <div class="calendar-day-list">
+                  <ul class="calendar-days"></ul>
+                </div>
+              </div>
+            </div>
+        </div>
+            <div class="calendar-day-text">        
+            </div>
+            <div class="calendar-text">
+            </div>
+        
+            <script async src="all.js"></script>
+</body>
+</html>

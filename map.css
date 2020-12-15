@@ -79,12 +79,15 @@ body{
       flex-direction: column;
       width: 100%;
   }
+  .icon{
+      width: 50%;
+  }
 
   .map{
-      width: 60%;
+      width: 50%;
   }
   .map img{
-      width: 100%;
+      width: 80%;
   }
 
   /* footer */
@@ -92,14 +95,12 @@ body{
 .backToTop{
     margin-left: 90%;
     position: relative;
-    top: 250px;
+    top: 50px;
 }
 
 footer{
     width: 100%;
     background-color: #282C53;
-    font-size: 25px;
-    margin-top: 10%;
 }
 
 .firstBoxFooter{
@@ -116,10 +117,35 @@ footer{
 }
 
 .OpenHours{
-    padding-left: 80%;
+    padding-left: 85%;
     color: #fff;
     margin: 3% 0% ;
 }
+
+.reseaux img{
+    
+    margin-left: 20px;
+}
+
+.twitterPicture, 
+.facebookPicture, 
+.youtubePicture{
+    width: 40px;
+}
+
+
+
+.instagramPicture{
+    width: 35px;
+}
+
+
+
+.mailPicture{
+    width: 50px;
+}
+
+
 
 .footerDown{
     display: flex;
@@ -144,4 +170,178 @@ footer{
 
 footer a:hover{
     color: #F6CD40;
+}
+
+@media screen and (max-width: 1750px){
+    .backToTop{
+        margin-left: 80%;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .poppyMap{
+        margin-left: 50%;
+    }
+    .bar{
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+.bar{
+    bottom: 90px;
+}
+}
+
+@media screen and (max-width: 1350px){
+.poppyMap{
+    margin-left: 40%;
+}
+}
+
+@media screen and (max-width: 1200px){
+    .backToTop{
+        margin-left: 75%;
+        top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    .poppyMap{
+        margin-left: 30%;
+          width: 500px;
+    }
+
+    .OpenHours{
+        padding-left: 75%;
+    }
+
+    .navbar{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 980px){
+    .bar{
+        bottom: 155px;
+    }
+
+    .poppyMap {
+        margin-left: 44%;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .bar {
+        bottom: 200px;
+    }
+
+    .logo {
+        width: 215px;
+    }
+
+    footer{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        height: none;
+        text-align: center;
+        
+    }
+
+    .firstBoxFooter{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .OpenHours{
+        padding-left: 0%;
+        padding-bottom: 20px;
+    }
+
+    .cgvMl{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .reseaux{
+        padding-bottom: 20px;
+    }
+
+    .footerDown{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box-effectif-element{
+        margin-right: 35%;
+    }
+
+    .allGames{
+        margin-right: 0%;
+    }
+
+    .backToTop{
+        margin-left:  75%;
+
+    }
+
+    .backToTop img{
+        width: 50%;
+    }
+
+    .poppyMap {
+        margin-left: 46%;
+        width: 311px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 560px){
+    .poppyMap {
+        margin-left: 40%;
+        width: 311px;
+    }
+    .iconPlan {
+width: 80%;
+    
+}
+.iconPlan img{
+    width: 10%;
+}
+}
+
+@media screen and (max-width: 480px){
+    .poppyMap {
+        margin-left: 27%;
+        width: 247px;
+    }
+    
+    .bar {
+        bottom: 225px;
+    }
+
+    .logo {
+        width: 137px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .bar {
+        bottom: 220px;
+    }
+
+    .logo {
+        width: 109px;
+    }
+    
 }

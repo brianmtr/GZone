@@ -371,5 +371,9 @@ footer a:hover{
     .logo {
         width: 109px;
     }
+
+    .backToTop img{
+        width: 70%;
+    }
     
 }

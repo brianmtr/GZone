@@ -631,6 +631,15 @@ footer a:hover{
         
     }
 
+    .allGames{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allGames img{
+        width: 35%;
+        margin-bottom: 10%;
+    }
     .textDescription {
 
         top: 130px;

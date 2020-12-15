@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0 auto; 
 }
-body{
+
+body {
     background-image: url(image/pjv-2020-2-1000x288.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-/* header */
+/* header */ /* header */ /* header */ /* header *//* header */
 
 .navbar {
     list-style-type: none;
@@ -32,11 +33,11 @@ body{
     margin-top: 10px;
   }
 
-  .navitem-user{
+  .navitem-user {
       margin-left: 100px;
   }
 
-  li img{
+  li img {
       width: 70px;
       margin-top: 10px;
   }
@@ -46,114 +47,111 @@ body{
     background-color: #111;
   }
 
-  .logo{
+  .logo {
       position: relative;
       z-index: 1;
   }
 
-  .poppy-header{ 
+  .poppy-header { 
       padding-left: 60%;
   }
   
-  .bar{
+  .bar {
       background-color: #282C53;   
       height: 10px;
       margin-top: 11.5%;
   }
 
-  .poppyMap{
+  .poppyMap {
     margin-left: 60%;
     position: relative;
     bottom: 200px;
   }
 
-  .containerPlan{
+  /* body */ /* body */ /* body */ /* body */ /* body */
+
+  .containerPlan {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
   }
 
-  .iconPlan{
+  .iconPlan {
       list-style-type: none;
       display: flex;
       flex-direction: column;
       width: 100%;
   }
-  .icon{
+
+  .icon {
       width: 50%;
   }
 
-  .map{
+  .map {
       width: 50%;
   }
-  .map img{
+  .map img { 
       width: 80%;
   }
 
-  /* footer */
+  /* footer */ /* footer */ /* footer */ /* footer */
 
-.backToTop{
+.backToTop {
     margin-left: 90%;
     position: relative;
     top: 50px;
 }
 
-footer{
+footer {
     width: 100%;
     background-color: #282C53;
+    
 }
 
-.firstBoxFooter{
+.firstBoxFooter {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 3%;
 } 
 
-.firstBoxFooter a{
+.firstBoxFooter a  {
     text-decoration: none;
     color: white;
-    
 }
 
-.OpenHours{
+.OpenHours {
     padding-left: 85%;
     color: #fff;
     margin: 3% 0% ;
 }
 
-.reseaux img{
+.reseaux img {
     
     margin-left: 20px;
 }
 
 .twitterPicture, 
 .facebookPicture, 
-.youtubePicture{
+.youtubePicture {
     width: 40px;
 }
 
-
-
-.instagramPicture{
+.instagramPicture { 
     width: 35px;
 }
 
-
-
-.mailPicture{
+.mailPicture {
     width: 50px;
 }
 
-
-
-.footerDown{
+.footerDown {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.cgvMl{
+.cgvMl {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -172,6 +170,8 @@ footer a:hover{
     color: #F6CD40;
 }
 
+/* media querry  */ /* media querry  */ /* media querry  */
+
 @media screen and (max-width: 1750px){
     .backToTop{
         margin-left: 80%;
@@ -183,6 +183,7 @@ footer a:hover{
     .poppyMap{
         margin-left: 50%;
     }
+
     .bar{
         position: relative;
         bottom: 50px;
@@ -196,9 +197,9 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1350px){
-.poppyMap{
-    margin-left: 40%;
-}
+    .poppyMap{
+        margin-left: 40%;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -209,23 +210,23 @@ footer a:hover{
 
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
     .poppyMap{
         margin-left: 30%;
-          width: 500px;
+        width: 500px;
     }
 
-    .OpenHours{
+    .OpenHours {
         padding-left: 75%;
     }
 
-    .navbar{
+    .navbar {
         font-size: 13px;
     }
 
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) {
     .bar{
         bottom: 155px;
     }
@@ -237,7 +238,7 @@ footer a:hover{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .bar {
         bottom: 200px;
     }
@@ -246,7 +247,7 @@ footer a:hover{
         width: 215px;
     }
 
-    footer{
+    footer {
         font-size: 15px;
         display: flex;
         flex-direction: column;
@@ -255,46 +256,47 @@ footer a:hover{
         
     }
 
-    .firstBoxFooter{
+    .firstBoxFooter {
         display: flex;
         flex-direction: column;
         padding-bottom: 20px;
     }
 
-    .OpenHours{
+    .OpenHours {
         padding-left: 0%;
         padding-bottom: 20px;
     }
 
-    .cgvMl{
+    .cgvMl {
         display: flex;
         flex-direction: column;
         padding-bottom: 20px;
     }
-    .reseaux{
+
+    .reseaux {
         padding-bottom: 20px;
     }
 
-    .footerDown{
+    .footerDown {
         display: flex;
         flex-direction: column;
 
     }
 
-    .box-effectif-element{
+    .box-effectif-element {
         margin-right: 35%;
     }
 
-    .allGames{
+    .allGames {
         margin-right: 0%;
     }
 
-    .backToTop{
+    .backToTop {
         margin-left:  75%;
 
     }
 
-    .backToTop img{
+    .backToTop img {
         width: 50%;
     }
 
@@ -306,21 +308,22 @@ footer a:hover{
     
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 560px) {
     .poppyMap {
         margin-left: 40%;
         width: 311px;
     }
     .iconPlan {
-width: 80%;
+        width: 80%;
     
-}
-.iconPlan img{
-    width: 10%;
-}
+    }
+
+    .iconPlan img {
+        width: 10%;
+    }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .poppyMap {
         margin-left: 27%;
         width: 247px;
@@ -335,7 +338,7 @@ width: 80%;
     }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 380px) {
     .bar {
         bottom: 220px;
     }

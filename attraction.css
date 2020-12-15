@@ -8,7 +8,7 @@ body{
     
 }
 
-/* header */
+/* header */ /* header *//* header *//* header *//* header */
 header{
     height: 1100px;
 }
@@ -60,6 +60,8 @@ ul {
       height: 10px;
       margin-top: 7%;
   }
+
+  /* body */  /* body */  /* body */  /* body */  /* body */
 
   .poppyTeam img{
     margin-left: 35%;
@@ -147,51 +149,64 @@ ul {
       text-decoration: none;
 }
 
-/* footer */
+  /* footer */ /* footer */ /* footer */ /* footer */
 
-.backToTop{
+  .backToTop {
     margin-left: 90%;
     position: relative;
-    top: 250px;
+    top: 50px;
 }
 
-footer{
+footer {
     width: 100%;
     background-color: #282C53;
-    font-size: 25px;
-    margin-top: 10%;
+    
 }
 
-.firstBoxFooter{
+.firstBoxFooter {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 3%;
 } 
 
-.firstBoxFooter a{
+.firstBoxFooter a  {
     text-decoration: none;
     color: white;
-    
 }
 
-.OpenHours{
-    padding-left: 80%;
+.OpenHours {
+    padding-left: 85%;
     color: #fff;
     margin: 3% 0% ;
 }
 
+.reseaux img {
+    
+    margin-left: 20px;
+}
 
+.twitterPicture, 
+.facebookPicture, 
+.youtubePicture {
+    width: 40px;
+}
 
+.instagramPicture { 
+    width: 35px;
+}
 
+.mailPicture {
+    width: 50px;
+}
 
-.footerDown{
+.footerDown {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.cgvMl{
+.cgvMl {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -209,3 +224,133 @@ footer{
 footer a:hover{
     color: #F6CD40;
 }
+
+/* media querry */ /* media querry */ /* media querry */ /* media querry */
+
+@media screen and (max-width: 1820px) {
+    .backToTop {
+        margin-left: 85%;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .poppyTeam img {
+        margin-left: 40%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        height: 800px;
+    }
+    
+    .containerRight p,
+    .containerLeft p {
+        font-size: 17px;
+    }
+
+    .containerLeft img,
+    .containerRight img{
+        width: 20%;
+    }
+
+    .backToTop {
+        margin-left: 79%;
+        top: 40px;
+    }
+
+    .more_infos {
+        top: 250px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    footer {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        height: none;
+        text-align: center;
+        
+    }
+
+    .firstBoxFooter {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .OpenHours {
+        padding-left: 0%;
+        padding-bottom: 20px;
+    }
+
+    .cgvMl {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .reseaux {
+        padding-bottom: 20px;
+    }
+
+    .footerDown {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .containerRight,
+    .containerLeft {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerRight img,
+    .containerLeft img {
+        margin-left: 30%;
+        width: 40%;
+    }
+
+    header {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+
+    header {
+        height: 450px;
+    }
+
+    .containerRight p,
+    .containerLeft p {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 580Px) {
+    header {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 380Px) {
+    header {
+        height: 220px;
+    }
+
+    .containerRight p,
+    .containerLeft p {
+        font-size: 15px;
+    }
+}
+
+

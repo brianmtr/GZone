@@ -653,4 +653,10 @@ footer a:hover{
     .bar{
         bottom: 30px;
     }
+
+    .backToTop {
+        margin-left: 72%;
+        top: 30px;
+        width: 21%;
+    }
 }

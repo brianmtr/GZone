@@ -28,7 +28,7 @@ ul {
 
   .dropdown_content{
       bottom: 536px;
-      display: none;
+      /* display: none; */
       position: absolute;
       z-index: 0;
             

@@ -1,0 +1,555 @@
+* {
+    margin: 0 auto; 
+}
+
+
+/* header */ /* header *//* header *//* header *//* header */
+header {
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    bottom: 265px;
+    font-size: 20px;
+    z-index: 0;
+    display: none;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .navitem-user {
+      margin-left: 100px;
+  }
+
+  li img {
+      width: 70px;
+      margin-top: 10px;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo { 
+      position: relative;
+      z-index: 1;
+      width: 40%;
+  }
+  
+  .boxBlueHeader {
+    width: 100%;
+    height: 260px;
+    background-color: #282C53;
+    position: relative;
+    bottom: 265px;
+  }
+
+  h1{
+      color: #fff;
+      font-size: 30px;
+      position: relative;
+      z-index: 2;
+      top: 220px;
+      text-align: center;
+  }
+
+  /* body */  /* body */  /* body */  /* body */
+
+  .astrobot-header {
+    position: relative;
+    width: 50%;
+    left: 100px;
+    bottom: 36px;
+}
+
+.firstBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.firstBox p{
+  padding: 5% 0%;
+}
+
+.firstBox button{
+  margin-bottom: 2%;
+  border-radius: 5px;
+  background-color: #afafaf;
+  color: #fff;
+  border: none;
+}
+
+.passFighterJunior{
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 10px #555;
+}
+
+.boxYellow{
+  background-color: #F6CD40;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.passFighter{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #555;
+  margin-bottom: 5%;
+}
+
+.boxPink{
+  background-color: #B91466;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+.secondBox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.secondBox p{
+  
+  width: 100%;
+}
+
+.secondBox button{
+  margin-bottom: 2%;
+  border-radius: 5px;
+  background-color: #afafaf;
+  color: #fff;
+  border: none;
+}
+
+.passSuperFighter{
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 10px #555;
+}
+
+.boxViolet{
+  background-color: #71388B;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.passHeroes{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #555;
+  margin-bottom: 5%;
+}
+
+.boxBlue{
+  background-color: #323868;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* table *//* table *//* table *//* table *//* table */
+
+table{
+  border-collapse: inherit
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.plus,
+.moins{
+  margin-left: 3%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.plus{
+  background-color: green;
+  
+}
+
+.moins{
+  background-color: red;
+}
+
+.command-date{
+  width: 80%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.date,
+.command{
+  width: 45%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  box-shadow: 1px 1px 10px #555;
+}
+
+.date{
+  background-color: #71388B;
+}
+
+.command{
+  background-color: #C9116A;
+
+}
+
+.backToTop{
+  margin-left: 70%;
+  position: relative;
+  top: 75px;
+  width: 25%;
+}
+
+/* footer */
+
+
+footer{
+  width: 100%;
+  background-color: #282C53;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.firstBoxFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5% 0%;
+} 
+
+.firstBoxFooter a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.OpenHours{
+  text-align: center;
+  color: #fff;
+  margin: 3% 0% ;
+}
+
+.reseaux img{
+  padding: 5px;
+}
+
+
+
+.twitterPicture, 
+.facebookPicture, 
+.youtubePicture{
+  width: 40px;
+}
+
+
+
+.instagramPicture{
+  width: 35px;
+}
+
+
+
+.mailPicture{
+  width: 50px;
+}
+
+
+
+.footerDown{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.cgvMl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  position: relative;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cgvMl a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+footer a:hover{
+  color: #F6CD40;
+}
+
+@media screen and (min-width: 380px){
+  .logo{
+    width: 20%;
+  }
+  .boxBlueHeader {
+    bottom: 260px;
+    height: 310px;
+  }
+
+  .astrobot-header {
+    left: 433px;
+    top: 55px;
+  }
+  .passFighter,
+  .passHeroes,
+  .passSuperFighter,
+  .passFighterJunior {
+    height: 270px;
+    font-size: 20px;
+  }
+
+  .reserve{
+    font-size: 20px;
+  }
+
+  .table{
+    width: 80%;
+  }
+
+  .date,
+  .command{
+    font-size: 15px;
+    padding: 2%;
+  }
+
+  .backToTop {
+    top: 144px;
+  }
+}
+
+@media screen and (min-width: 769px){
+  .logo{
+    width: 20%;
+  }
+
+  .astrobot-header {
+    left: 526px;
+    bottom: 13px;
+}
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .secondBox{
+    display: flex;
+    flex-direction: row; 
+  }
+  .firstBox{
+    flex-direction: row;
+
+  }
+  .passFighterJunior,
+  .passFighter,
+  .passSuperFighter,
+  .passHeroes {
+    width: 340px;
+    
+    font-size: 25px;
+    margin: 2% ;
+  }
+
+  .passFighterJunior p,
+  .passFighter p,
+  .passSuperFighter p,
+  .passHeroes p {
+    padding: 2%;
+  }
+
+  .reserve {
+      font-size: 25px;
+      margin-top: 20%;
+  }
+
+  table{
+    margin-top: 10%;
+    width: 700px;
+    font-size: 25px;
+  }
+
+  .date,
+  .command{
+    font-size: 25px;
+  }
+
+  footer{
+    font-size: 25px;
+  }
+
+  .backToTop{
+    top: 175px;
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1024px) {
+ 
+  .astrobot-header {
+    left: 500px;
+    bottom: 13px;
+  }
+
+  .backToTop {
+    top: 182px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .backToTop {
+    width: 15%;
+}
+
+  .firstBoxFooter{
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .cgvMl {
+    flex-direction: row;
+  }
+
+  .reseaux{
+    width: 80%;
+  }
+
+  .footerDown{
+    flex-direction: row;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .logo{
+    width: 20%;
+  }
+
+  .boxBlueHeader {
+    bottom: 311px;
+}
+
+.passFighterJunior, 
+.passFighter, 
+.passSuperFighter, 
+.passHeroes {
+  width: 480px;
+  height: 350px;
+}
+  table{
+    width: 80%;
+  }
+
+  .firstBoxFooter{
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .cgvMl {
+    flex-direction: row;
+  }
+  .reseaux{
+    width: 80%;
+  }
+
+  .footerDown{
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .backToTop {
+    margin-left: 80%;
+    top: 220px;
+    width: 15%;
+}
+
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1920px) {
+  .logo{
+    width: 15%;
+  }
+
+  .boxBlueHeader {
+    bottom: 295px;
+}
+
+.passFighterJunior, 
+.passFighter, 
+.passSuperFighter, 
+.passHeroes {
+  width: 580px;
+  height: 350px;
+}
+  table{
+    width: 80%;
+  }
+
+  .firstBoxFooter{
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .cgvMl {
+    flex-direction: row;
+  }
+  .reseaux{
+    width: 80%;
+  }
+
+  .footerDown{
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .backToTop {
+    margin-left: 80%;
+    top: 280px;
+    width: 15%;
+}
+
+}
+
+
+

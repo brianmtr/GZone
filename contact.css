@@ -1,0 +1,11 @@
+h2{
+    width: auto;
+    text-align: center;
+}
+#submitContact{
+    background-color: #B91466;
+    border: none;
+}
+#submitContact:hover{
+    background-color: #820C47;
+}

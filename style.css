@@ -1,5 +1,6 @@
 *{
     margin: 0 auto; 
+    padding: 0;
 }
 body{
     background-image: url(image/un-parc-dattractions-dedie-aux-jeux-video-a-nimes-dici-2020_u6pv\ 1.png);
@@ -27,7 +28,6 @@ ul {
 
 
   .dropdown_content{
-      bottom: 536px;
       /* display: none; */
       position: absolute;
       z-index: 0;
@@ -39,17 +39,17 @@ ul {
       display: flex;
       flex-direction: column;
       position: fixed;
-      height: 300px;
+      height: 259px;
       z-index: 10;
       background-color: #333;
       text-align: left;
+      top: 57px;
+      width: 198px;
   }
-  .dropdown{
-      position: relative;
-      z-index: 10;
-
-  }
-  
+.dropdownLi a{
+    margin: 0;
+}
+    
   li {
     float: right;
 
@@ -76,6 +76,11 @@ ul {
  
   li a:hover {
     background-color: #111;
+  }
+
+  .dropdownLi{
+    width: 100%;
+    text-align: center;
   }
 
   .logo{
@@ -654,6 +659,8 @@ footer a:hover{
 }
 
 @media screen and (max-width: 380px){
+
+
     .logo{
         width: 100px;
     }

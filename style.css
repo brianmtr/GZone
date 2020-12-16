@@ -17,10 +17,37 @@ ul {
     bottom: 265px;
     font-size: 20px;
     z-index: 0;
+    height: 60px;
   }
+
+
+  .dropdown_content{
+      bottom: 10px;
+      display: none;
+      position: absolute;
+  }
+
+  .dropdown:hover .dropdown_content{
+      display: block;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: 300px;
+      z-index: 10;
+      background-color: red;
+      text-align: left;
+  }
+  .dropdown{
+      position: relative;
+      z-index: 1000;
+
+  }
+
+
   
   li {
     float: right;
+
   }
   
   li a {

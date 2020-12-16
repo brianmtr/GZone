@@ -69,32 +69,139 @@ ul {
       text-align: center;
   }
 
-  .titlePropos h2{
+  .picture {
+      width: 70%;
+      margin-left: 20%;
+  }
+
+
+  /* form connected */
+
+  form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  input{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background-color: #282C53;
+    color: #fff;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+
+  .button {
+    padding-left: 70%; 
+  }
+
+  button{
+      background-color: #282C53;
+      color: #fff;
+      padding: 5% 10%;
+      border-radius: 5px;
+  }
+  
+  /* subscribe form */
+
+  .containerBlue h2{
       text-align: center;
+      color: #fff;
+      margin-bottom: 5%;
   }
-
-  .container img{
-      width: 80%;
-      margin-left: 10%;
+  .containerBlue{
+      background-color: #282C53;
       margin-top: 10%;
+      padding: 5% 0%;
   }
 
-  .description{
-      width: 80%;
-      text-align: justify;
-      margin-top: 5%;
+  .inputSubscribe{
+      background-color: #fff;
+      color: #282C53;
   }
 
-  /* footer */  /* footer */  /* footer */
+.labelSubscribe{
+    color: #fff;
+}
 
-  .backToTop{
+.buttonSubscribe{
+    background-color: #fff;
+    color: #282C53;
+}
+
+.rgpd{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.checkboxInput{
+    width: 100px;
+}
+
+.avatar img{
+    width: 70%;
+    margin-bottom:5%;
+    margin-top: 10%;
+}
+
+.buttonBird{
+    width: 80%;
+}
+
+.bird img{
+    width: 95%;
+}
+
+.buttonSnake,
+.buttonWolf,
+.buttonPirate,
+.buttonBird{
+    border: none;
+}
+
+.buttonSnake:hover,
+.buttonWolf:hover,
+.buttonPirate:hover,
+.buttonBird:hover{
+    background-color: #fff;
+}
+
+.xp{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/* footer *//* footer *//* footer *//* footer */
+
+.backToTop{
     margin-left: 70%;
     position: relative;
     top: 75px;
     width: 25%;
   }
 
-  footer{
+footer{
     width: 100%;
     background-color: #282C53;
     display: flex;
@@ -177,105 +284,16 @@ ul {
   }
 
   @media screen and (min-width: 768px) {
-      .logo{
-          width: 20%;
-      }
-
-    h1, .description, footer{
-        font-size: 20px;
-    }
-
-    .titlePropos{
-        margin-top: 10%;
-    }
-
-    .backToTop {
-        top: 146px;
-    }
-  }
-
-  @media screen and (min-width: 980px) {
-      .container img{
-          width: 30%;
-      }
-
-      .description{
-          width: 40%;
-          margin-top: 10%;
-      }
-
-      .container{
-          display: flex;
-          flex-direction: row;
-      }
-
-      .backToTop{
-          width: 15%;
-      }
-  }
-
-  @media screen and (min-width: 1024px) {
-    .backToTop {
-        top: 160px;
-    }
-
-    .firstBoxFooter{
-        flex-direction: row;
-        width: 80%;
-      }
-    
-      .cgvMl {
-        flex-direction: row;
-      }
-      .reseaux{
-        width: 80%;
-      }
-    
-      .footerDown{
-        flex-direction: row;
-        width: 80%;
-      }
-  }
-
-  @media screen and (min-width: 1200px) {
-    .backToTop {
-        top: 186px;
-    }
-  }
-
-  @media screen and (min-width: 1400px) {
     .logo{
-        width: 15%;
+        width: 20%;
     }
 
-    h1{
-        font-size: 30px;
+    form {
+        width: 39%;
     }
-
     .backToTop {
-        top: 216px;
-    }
+        top: 148px;
 
-  }
-
-  @media screen and (min-width: 1750px) {
-      .logo{
-          width: 13%;
-      }
-
-      h1, h2, .description, footer{
-          font-size: 30px;
-      }
-
-      .backToTop {
-        top: 269px;
     }
   }
-
-  @media screen and (min-width: 1920px) {
-    .backToTop {
-        top: 293px;
-    }
-  }
-
 

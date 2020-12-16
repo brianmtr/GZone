@@ -95,6 +95,9 @@ ul {
       position: relative;
       z-index: 1;
   }
+.logo{
+    width: 20%;
+}
 
   .poppy-header{ 
       padding-left: 60%;

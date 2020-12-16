@@ -94,6 +94,17 @@ body {
       width: 80%;
   }
 
+  .googleMap{  
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column;
+}
+
+.googleMap h2{
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
   /* footer */ /* footer */ /* footer */ /* footer */
 
 .backToTop {
@@ -314,7 +325,6 @@ footer a:hover{
     .allGames {
         margin-right: 0%;
     }
-
     .backToTop {
         margin-left:  75%;
 

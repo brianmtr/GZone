@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_home">
+		
+				<img class="logo" src="image/logo-header.png" alt="logo GAME ZONE">
+			
+			<ul class="navbar"> 
+                <li class="navitem">
+					<img src="image/gaming_snake.png"">
+				</li>
+                <li class="navitem-user">
+					<a href="">Brian mtr</a>
+                </li>
+
+                <li class="navitem">
+					<a href="contact.html">Infos</a>
+                </li>
+                <li class="navitem">
+					<a href="contact.html">Préparer ma visite</a>
+                </li>
+				<li class="navitem">
+					<a href="contact.html">My game</a>
+                </li>
+				<li class="navitem">
+					<a href="aller.html">Le plan</a>
+                </li>
+                <li class="navitem">
+					<a href="stages.html">Les attractions</a>
+				</li>
+				<li class="navitem">
+					<a href="">Le parc</a>
+                </li>
+
+			</ul>
+        </nav>
+        <div class="boxBlueHeader">
+            <h1>Connexion</h1>
+        </div>
+        </header>
+        <img class="picture" src="image/astrobotAccount.png" alt="astro_bot">
+        <div class="containerWhite">
+            <form action="/connexion" method="post">
+                <div>
+                    <label for="name">Utilisateur :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">Mot de passe :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <p>Vous n'avez pas encore de compte ?<a href="">Inscrivez-vous</a> </p>
+                <div class="button">
+                    <button type="submit">Valider</button>
+                </div>
+            </form>
+        </div>
+        <div class="containerBlue">
+            <h2>S'inscrire</h2>
+            <form action="/inscription" method="post">
+                <div>
+                    <label class="labelSubscribe" for="name">Nom :</label>
+                    <input class="inputSubscribe" type="text" id="surname" name="user_surname">
+                </div>
+                <div>
+                    <label class="labelSubscribe" for="name">Prenom :</label>
+                    <input class="inputSubscribe" type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label class="labelSubscribe" for="country">Ville :</label>
+                    <input class="inputSubscribe" type="text" id="country" name="user_country">
+                </div>
+                <div>
+                    <label class="labelSubscribe" for="name">Pseudo :</label>
+                    <input class="inputSubscribe" type="text" id="pseudo" name="user_pseudo">
+                </div>
+                <div>
+                    <label class="labelSubscribe" for="mail">Mot de passe :</label>
+                    <input class="inputSubscribe" type="password" id="password" name="password">
+                </div>
+                <div>
+                    <label class="labelSubscribe" for="mail">Mot de passe :</label>
+                    <input class="inputSubscribe" type="password" id="password" name="password">
+                </div>
+                <div class="rgpd">
+                    <input class="checkboxInput" type="checkbox" id="scales" name="scales"
+                           checked>
+                    <label for="scales">J'accepte les conditions d'utilisation.</label>
+                  </div>
+                <div class="button">
+                    <button class="buttonSubscribe" type="submit">Valider</button>
+                </div>
+            </form>
+            <div class="avatar">
+              <button class="buttonSnake"><img src="image/gaming_snake.png" alt=""></button> 
+              <button class="buttonBird"><img class="bird" src="image/gaming-bird.png" alt=""></button>
+
+              <button class="buttonWolf"><img src="image/gaming-wolf.png" alt=""></button>
+              <button class="buttonPirate"><img src="image/gaming-pirate.png" alt=""></button>
+            </div>
+        </div>
+        <p class="xp">Explication systeme de gain d’xp</p>
+        <!-- footer -->
+    <img class="backToTop" src="image/backToTop.png" alt="back_to_top">
+    <footer>
+        <div class="firstBoxFooter">
+            <p><a href="#">À propos du parc</a></p>
+            <p><a href="#">Nous contacter</a></p>
+            <p><a href="#">On recrute</a></p>
+            <p><a href="#">Dans la presse</a></p>
+        </div>
+        <div class="OpenHours">
+            <p>Du lundi au jeudi  : 9h-19h<br>
+                Du vendredi au samedi : 9h-18h<br>
+                Le dimanche : 9h – 18h</p>
+        </div>
+        <div class="footerDown">
+            <div class="reseaux">
+                <img class="facebookPicture" src="image/Facebook.png" alt="facebook">
+                <img class="twitterPicture" src="image/Twitter.png" alt="twitter">
+                <img class="instagramPicture" src="image/Instagram.png" alt="instagram">
+                <img class="youtubePicture" src="image/YouTube.png" alt="instagram">
+                <img class="mailPicture" src="image/mail.png" alt="mail">
+            </div>
+            <div class="cgvMl">
+                <p><a href=""> Condition Générale de Vente</p></a>
+                <p><a href=""> Mentions légales</p></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

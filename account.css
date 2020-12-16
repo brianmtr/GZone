@@ -1,0 +1,299 @@
+* {
+    margin: 0 auto; 
+}
+
+
+/* header */ /* header *//* header *//* header *//* header */
+header {
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    bottom: 265px;
+    font-size: 20px;
+    z-index: 0;
+    display: none;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .navitem-user {
+      margin-left: 100px;
+  }
+
+  li img {
+      width: 70px;
+      margin-top: 10px;
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
+  .logo { 
+      position: relative;
+      z-index: 1;
+      width: 40%;
+  }
+  
+  .boxBlueHeader {
+    width: 100%;
+    height: 260px;
+    background-color: #282C53;
+    position: relative;
+    bottom: 265px;
+  }
+
+  h1{
+      color: #fff;
+      font-size: 30px;
+      position: relative;
+      z-index: 2;
+      top: 220px;
+      text-align: center;
+  }
+
+  .picture {
+      width: 70%;
+      margin-left: 20%;
+  }
+
+
+  /* form connected */
+
+  form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  input{
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    background-color: #282C53;
+    color: #fff;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+
+  .button {
+    padding-left: 70%; 
+  }
+
+  button{
+      background-color: #282C53;
+      color: #fff;
+      padding: 5% 10%;
+      border-radius: 5px;
+  }
+  
+  /* subscribe form */
+
+  .containerBlue h2{
+      text-align: center;
+      color: #fff;
+      margin-bottom: 5%;
+  }
+  .containerBlue{
+      background-color: #282C53;
+      margin-top: 10%;
+      padding: 5% 0%;
+  }
+
+  .inputSubscribe{
+      background-color: #fff;
+      color: #282C53;
+  }
+
+.labelSubscribe{
+    color: #fff;
+}
+
+.buttonSubscribe{
+    background-color: #fff;
+    color: #282C53;
+}
+
+.rgpd{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.checkboxInput{
+    width: 100px;
+}
+
+.avatar img{
+    width: 70%;
+    margin-bottom:5%;
+    margin-top: 10%;
+}
+
+.buttonBird{
+    width: 80%;
+}
+
+.bird img{
+    width: 95%;
+}
+
+.buttonSnake,
+.buttonWolf,
+.buttonPirate,
+.buttonBird{
+    border: none;
+}
+
+.buttonSnake:hover,
+.buttonWolf:hover,
+.buttonPirate:hover,
+.buttonBird:hover{
+    background-color: #fff;
+}
+
+.xp{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/* footer *//* footer *//* footer *//* footer */
+
+.backToTop{
+    margin-left: 70%;
+    position: relative;
+    top: 75px;
+    width: 25%;
+  }
+
+footer{
+    width: 100%;
+    background-color: #282C53;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  
+  .firstBoxFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5% 0%;
+  } 
+  
+  .firstBoxFooter a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  .OpenHours{
+    text-align: center;
+    color: #fff;
+    margin: 3% 0% ;
+  }
+  
+  .reseaux img{
+    padding: 5px;
+  }
+  
+  
+  
+  .twitterPicture, 
+  .facebookPicture, 
+  .youtubePicture{
+    width: 40px;
+  }
+  
+  
+  
+  .instagramPicture{
+    width: 35px;
+  }
+  
+  
+  
+  .mailPicture{
+    width: 50px;
+  }
+  
+  
+  
+  .footerDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cgvMl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cgvMl a{
+    text-decoration: none;
+    color: #fff;
+    
+  }
+  
+  footer a:hover{
+    color: #F6CD40;
+  }
+
+  @media screen and (min-width: 768px) {
+    .logo{
+        width: 20%;
+    }
+
+    form {
+        width: 39%;
+    }
+    .backToTop {
+        top: 148px;
+
+    }
+  }
+

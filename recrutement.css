@@ -1,0 +1,33 @@
+
+.color_title{
+    height: 117px;
+    background-color:;
+    position: absolute;
+    width: 100%;
+    top:57px;
+}
+.recrutement{
+    width: 60%;
+    padding: 40px;
+}
+.recrutement h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.blue_background{
+    text-decoration: none;
+    background-color: #282C53;
+    width: 100%;
+    color: white;
+    padding:40px 40px ;
+}
+.blue_background p{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.blue_background li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 0;
+}

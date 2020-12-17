@@ -1,0 +1,10 @@
+#cartButton{
+    background-color: #C4C4C4;
+}
+#photoProduit{
+    width: 300px;
+}
+#containerProduit{
+    flex-wrap: wrap;
+    display: flex;
+}

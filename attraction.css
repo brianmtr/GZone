@@ -118,6 +118,10 @@ li > a:hover {
 }
   /* body */  /* body */  /* body */  /* body */  /* body */
 
+
+  span{
+      color: #F6CD40;
+  }
   .poppyTeam img{
     margin-left: 35%;
   }

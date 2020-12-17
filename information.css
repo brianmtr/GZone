@@ -1,73 +1,135 @@
 * {
-    margin: 0 auto; 
+  margin: 0 auto; 
 }
 
 
-/* header */ /* header *//* header *//* header *//* header */
+/* header */
+
+@font-face {
+font-family: commando;
+src: url(/fonts/commando.ttf) format("truetype");
+}
+
+.logo { 
+position: relative;
+z-index: 1;
+width: 150px;
+}
+
+.boxBlueHeader {
+width: 100%;
+height: 260px;
+background-color: #282C53;
+position: relative;
+bottom: 265px;
+}
+
+h1{
+color: #fff;
+font-size: 30px;
+position: relative;
+z-index: 2;
+top: 220px;
+text-align: center;
+}
+
+
+header nav {
+display: flex;
+background-color: #282C53;
+color: white;
+align-items: center;
+justify-content: space-between;
+padding: 30px;
+font-family: commando;
+font-weight: 400;
+font-style: normal;
+font-size: 15px;
+line-height: 13.41px;
+}
+
+nav{
+position: fixed;
+width: 100%;
+
+}
+
+header nav .link, .languages {
+display: none;
+}
+
+span{
+  color: #F6CD40;
+}
+
+.avatar {
+height: 50px;
+width: 73px;
+}
+
+.account-wrapper {
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.account-wrapper > a {
+margin: 0 10px;
+}
+
+.account-wrapper > a > .cart {
+width: 18px;
+height: 18px;
+}
+
+.personal-info div {
+margin: 2px 0;
+}
+
+.hamburger img {
+width: 24px;
+height: 20px;
+}
+
+.content-mobile {
+position: absolute;
+display: none;
+width: 100%;
+height: 100%;
+float: none;
+text-align: center;
+background-color:#282C53;
+top: 100px;
+right: 0;
+left: 0;
+padding: 0 20px;
+z-index: 1;
+}
+
+li > a {
+text-decoration: none;
+}
+
+li > a:hover {
+color:#F6CD40;
+}
+
+.content-mobile > li {
+margin: 20px;
+list-style: none;
+}
+
 header {
-    height: 200px;
+  height: 1100px;
 }
 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-    bottom: 265px;
-    font-size: 20px;
-    z-index: 0;
-    display: none;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-  }
 
-  .navitem-user {
-      margin-left: 100px;
-  }
-
-  li img {
-      width: 70px;
-      margin-top: 10px;
-  }
-  
- 
-  li a:hover {
-    background-color: #111;
-  }
-
-  .logo { 
-      position: relative;
-      z-index: 1;
-      width: 40%;
-  }
-  
-  .boxBlueHeader {
-    width: 100%;
-    height: 260px;
-    background-color: #282C53;
-    position: relative;
-    bottom: 265px;
-  }
-
-  h1{
-      color: #fff;
-      font-size: 30px;
-      position: relative;
-      z-index: 2;
-      top: 220px;
-      text-align: center;
-  }
+.backToTop{
+margin-left: 85%;
+position: relative;
+top: 60px;
+width: 10%;
+}
 
   /* body */  /* body */  /* body */  /* body */
 
@@ -243,7 +305,7 @@ footer{
 
 @media screen and (min-width: 1750px) {
     .logo{
-        width: 10%;
+        width: 25%;
     }
 
     .backToTop {
@@ -257,3 +319,83 @@ footer{
     }
 }
 
+@media screen and (min-width: 992px){
+  .content-mobile {
+      display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px){  
+
+.content-mobile {
+  display: none;
+}
+  header nav .link, .languages {
+      display: block;
+  }
+
+  header nav a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  header nav .link:hover {
+      color: #F6CD40;
+  }
+
+  header nav a:active {
+      color: white;
+      text-decoration: none;
+  }
+
+  .menu-wrapper {
+      cursor: pointer;
+      position: relative;
+  }
+
+
+  .dropdown {
+      display: none;   
+      position: absolute;
+      left: -23%;
+      width: 190px;
+      background-color: #282C53;
+      text-align: center;
+      padding-top: 40px;
+  }
+
+  .dropdown .menu-item:first-child {
+      padding: 24px 10px 14px 10px;
+  }
+
+  .dropdown .menu-item {
+      display: block;
+      padding: 14px 10px;
+  }
+
+  .menu-wrapper:hover .dropdown {
+      display: block;
+  }
+
+  .menu-wrapper:hover .menu-arrow {
+      background-image: url(/images/arrow.png);
+  }    
+
+  .languages {
+      display: block;
+  }
+
+  .languages a {
+      display: block;
+  }
+
+  .languages img {
+      height: 18px;
+      width: 18px;
+  }
+
+  .hamburger {
+      display: none;
+  }
+}

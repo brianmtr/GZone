@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Boutique</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+</head>
+<body>
+
+
+
+
+
+
+  <h1><i class=" fa fa-shopping-cart"></i></h1>
+
+  <section class="shop">
+
+    <div class="shop__products">
+      <div class="products">
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/1.png">
+              <p>Bonbons Canon Ball</p>
+              <h6>Prix : 4.49€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/2.png">
+              <p>Casquette Doom</p>
+              <h6>Prix : 29.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/3.png">
+              <p>Bonbons boite suprise</p>
+              <h6>Prix : 4.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/4.png">
+              <p>T-Shirt Overwatch</p>
+              <h6>Prix : 19.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/5.png">
+              <p>T-Shirt Salameche</p>
+              <h6>Prix : 19.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/6.png">
+              <p>Tasse Pokeball</p>
+              <h6>Prix : 14.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/7.png">
+              <p>Décoration boite suprise</p>
+              <h6>Prix : 23.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/8.png">
+              <p>Lampe triforce</p>
+              <h6>Prix : 28.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/9.png">
+              <p>Casquette manette</p>
+              <h6>Prix : 29.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/10.png">
+              <p>T-shirt Poudlard</p>
+              <h6>Prix : 13.99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="products__item">
+          <article class="product">
+            <div class="item">
+              <img src="img/11.png">
+              <p>Short Mario</p>
+              <h6>Prix : 9 .99€</h6>
+              <span></span>
+              <button>Ajouter au Panier</button>
+            </div>
+            </p>
+          </article>
+        </div>
+
+        <div class="select">
+
+        </div>
+
+      </section>
+
+    </body>
+    </html>
+
+      <script type="text/javascript">
+      	var noti = document.querySelector('h1');
+      	var select = document.querySelector('.select');
+      	var button = document.getElementsByTagName('button');
+      	for(var but of button){
+      		but.addEventListener('click', (e)=>{
+      			var add = Number(noti.getAttribute('data-count') || 0);
+      			noti.setAttribute('data-count', add +1);
+      			noti.classList.add('zero')
+
+      			// image --animation ---//
+      			var image = e.target.parentNode.querySelector('img');
+      			var span = e.target.parentNode.querySelector('span');
+      			var s_image = image.cloneNode(false);
+      			span.appendChild(s_image);
+      			span.classList.add("active");
+      			setTimeout(()=>{
+      				span.classList.remove("active");
+      				span.removeChild(s_image);
+      			}, 500);
+
+      			var parent = e.target.parentNode;
+      			var clone = parent.cloneNode(true);
+      			select.appendChild(clone);
+      			clone.lastElementChild.innerText = "Acheter";
+
+      			if (clone) {
+      				noti.onclick = ()=>{
+      					select.classList.toggle('display');
+      				}
+      			}
+      		})
+      	}
+      </script>

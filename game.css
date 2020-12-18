@@ -328,3 +328,13 @@ footer a:hover{
   }
 
 }
+
+
+
+.content-mobile > li {
+    padding: 20px;
+    list-style: none;
+    border: solid 1px #282C53;
+    text-align: center;
+    background-color: #464E78;
+}

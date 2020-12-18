@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <form class="form-horizontal span6">
+          <fieldset>
+            <legend>Carte de paiement</legend>
+
+            <div class="control-group">
+              <label class="control-label">Nom du proriétaire</label>
+              <div class="controls">
+                <input type="text" class="input-block-level" pattern="\w+ \w+.*" title="Mettre le nom" required>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label">Card Number</label>
+              <div class="controls">
+                <div class="row-fluid">
+                  <div class="span3">
+                    <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Partie 1 " required>
+                  </div>
+                  <div class="span3">
+                    <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Partie 1" required>
+                  </div>
+                  <div class="span3">
+                    <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Partie 3" required>
+                  </div>
+                  <div class="span3">
+                    <input type="text" class="input-block-level" autocomplete="off" maxlength="4" pattern="\d{4}" title="Partie 4" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label">Date d'Expiration </label>
+              <div class="controls">
+                <div class="row-fluid">
+                  <div class="span9">
+                    <select class="input-block-level">
+                      <option>Janvier</option>
+                      <option>...</option>
+                      <option>Decembre</option>
+                    </select>
+                  </div>
+                  <div class="span3">
+                    <select class="input-block-level">
+                      <option>2013</option>
+                      <option>...</option>
+                      <option>2020</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label">Card CVV</label>
+              <div class="controls">
+                <div class="row-fluid">
+                  <div class="span3">
+                    <input type="text" class="input-block-level" autocomplete="off" maxlength="3" pattern="\d{3}" title="Titre digital" required>
+                  </div>
+                  <div class="span8">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+              <button type="button" class="btn">Effacer</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>

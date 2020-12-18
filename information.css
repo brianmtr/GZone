@@ -51,6 +51,7 @@ line-height: 13.41px;
 nav{
 position: fixed;
 width: 100%;
+font-weight: bold;
 
 }
 
@@ -65,6 +66,15 @@ span{
 .avatar {
 height: 50px;
 width: 73px;
+}
+
+.avatar-mobile {
+  height: 50px;
+  width: 73px;
+  }
+
+.pseudo{
+  color: #fff;
 }
 
 .account-wrapper {
@@ -92,22 +102,21 @@ height: 20px;
 }
 
 .content-mobile {
-position: absolute;
-display: none;
-width: 100%;
-height: 100%;
-float: none;
-text-align: center;
-background-color:#282C53;
-top: 100px;
-right: 0;
-left: 0;
-padding: 0 20px;
-z-index: 1;
+  position: absolute;
+  width: 100%;
+  /* float: none; */
+  text-align: center;
+  background-color: #282C53;
+  top: 82px;
+  right: 0;
+  left: 0;
+ 
+  z-index: 1;
 }
 
 li > a {
 text-decoration: none;
+color: #fff;
 }
 
 li > a:hover {
@@ -117,6 +126,8 @@ color:#F6CD40;
 .content-mobile > li {
 margin: 20px;
 list-style: none;
+border:  #fff 1px solid;
+padding: 2%;
 }
 
 header {
@@ -153,6 +164,7 @@ width: 10%;
 footer{
     width: 100%;
     background-color: #282C53;
+    color: #464e97;
     display: flex;
     flex-direction: column;
     margin-top: 10%;
@@ -329,6 +341,10 @@ footer{
 @media screen and (min-width: 1200px){  
 
 .content-mobile {
+  display: none;
+}
+
+.avatar-mobile{
   display: none;
 }
   header nav .link, .languages {

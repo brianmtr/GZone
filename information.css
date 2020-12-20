@@ -124,14 +124,13 @@ color:#F6CD40;
 }
 
 .content-mobile > li {
-margin: 20px;
 list-style: none;
 border:  #fff 1px solid;
 padding: 2%;
 }
 
 header {
-  height: 1100px;
+  height: 200px;
 }
 
 

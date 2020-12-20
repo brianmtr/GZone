@@ -165,6 +165,8 @@ li > a:hover {
     margin-left: 63%;
     position: relative;
     bottom: 510px;
+    z-index: 0;
+
 }
 
 

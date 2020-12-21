@@ -433,7 +433,7 @@ footer{
 
 @media screen and (min-width: 1200px){
   input{
-    width: 740px;
+    width: 100%;
   }
   .picture {
     left: 1071px;

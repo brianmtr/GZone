@@ -1,45 +1,37 @@
-
-#blue_magazines{
-    height: 200px;
-    background-color: blue;
-    position: relative;
-}
-#magazines{
-    top: 120px;
-    position: absolute;
-    z-index: 999;
-    margin-bottom: 200px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-#blue_posts{
-    height: 200px;
-    background-color: blue;
-    position: relative;
-    top: 200px;
-
-}
-
-#posts{
-    position: absolute;
-    z-index: 999;
-    flex-wrap: wrap;
-
+body{
+    margin: 0;
+    padding: 0;
 }
 .container{
-    position: relative;
+    background-color: #282C53;
+    width: 100%;
+
 }
 
-/* #posts::before {
-    position: absolute;
-    content: '';
-    display: inline-block;
-    height: 200px;
-    width: 1000px;
-    background-color: aqua;
-    z-index:-1;
-} */
-/* #container_2{
-    position:relative ;
-    top: 500px;
-} */
+.container img{
+display: inline;
+width: 15%;
+margin-left: 8%;
+position: relative;
+top: 100px;
+}
+
+.container-2{
+    background-color: #282C53;
+    width: 100%;
+    margin-top: 15%;
+}
+
+
+.container-2 img{
+    display: inline;
+    width: 15%;
+    margin-left: 8%;
+    position: relative;
+    top: 100px;
+    }
+
+    h3{
+        color: #fff;
+    }
+    

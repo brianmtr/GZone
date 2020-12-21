@@ -391,6 +391,10 @@ footer a:hover{
         height: 800px;
     }
     
+    .more_infos_right{
+        display: none;
+    }
+    
     .containerRight p,
     .containerLeft p {
         font-size: 17px;

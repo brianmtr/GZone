@@ -192,24 +192,19 @@ footer{
     padding: 5px;
   }
   
-  
-  
-  .twitterPicture, 
-  .facebookPicture, 
   .youtubePicture{
+    width: 55px;
+  }
+  
+  .facebookPicture,
+  .instagramPicture{
     width: 40px;
   }
   
   
-  
-  .instagramPicture{
-    width: 35px;
-  }
-  
-  
-  
+  .twitterPicture, 
   .mailPicture{
-    width: 50px;
+    width: 45px;
   }
   
   

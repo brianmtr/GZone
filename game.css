@@ -4,11 +4,131 @@
 
 
 /* header */
+/* header */
 
 @font-face {
   font-family: commando;
   src: url(/fonts/commando.ttf) format("truetype");
-}
+  }
+  
+  .logo { 
+  position: relative;
+  z-index: 1;
+  width: 150px;
+  }
+  
+  .boxBlueHeader {
+  width: 100%;
+  height: 260px;
+  background-color: #282C53;
+  position: relative;
+  bottom: 265px;
+  }
+  
+  h1{
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+  top: 220px;
+  text-align: center;
+  }
+  
+  
+  header nav {
+  display: flex;
+  background-color: #282C53;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: commando;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 13.41px;
+  }
+  
+  nav{
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  
+  }
+  
+  header nav .link, .languages {
+  display: none;
+  }
+  
+  span{
+    color: #F6CD40;
+  }
+  
+  .avatar {
+  height: 50px;
+  width: 73px;
+  }
+  
+  .avatar-mobile {
+    height: 50px;
+    width: 73px;
+    }
+  
+  .pseudo{
+    color: #fff;
+  }
+  
+  .account-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .account-wrapper > a {
+  margin: 0 10px;
+  }
+  
+  .account-wrapper > a > .cart {
+  width: 18px;
+  height: 18px;
+  }
+  
+  .personal-info div {
+  margin: 2px 0;
+  }
+  
+  .hamburger img {
+  width: 24px;
+  height: 20px;
+  }
+  
+  .content-mobile {
+    position: absolute;
+    width: 100%;
+    /* float: none; */
+    text-align: center;
+    background-color: #282C53;
+    top: 82px;
+    right: 0;
+    left: 0;
+   
+    z-index: 1;
+  }
+  
+  li > a {
+  text-decoration: none;
+  color: #fff;
+  }
+  
+  li > a:hover {
+  color:#F6CD40;
+  }
+  
+  .content-mobile > li {
+  list-style: none;
+  border:  #fff 1px solid;
+  padding: 2%;
+  }
 
 .logo { 
   position: relative;
@@ -327,4 +447,14 @@ footer a:hover{
 
   }
 
+}
+
+
+
+.content-mobile > li {
+    padding: 20px;
+    list-style: none;
+    border: solid 1px #282C53;
+    text-align: center;
+    background-color: #464E78;
 }

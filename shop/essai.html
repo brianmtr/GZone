@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Valider</title>
+    <link rel="stylesheet" href="css/es.css">
+  </head>
+  <body>
+
+
+
+    <div class="container">
+
+    <div class="container-onglets">
+        <div class="onglets active" data-anim="1">Entrer Votre Email</div>
+        <div class="onglets" data-anim="2">Profil</div>
+        <div class="onglets" data-anim="3">Tarifs</div>
+    </div>
+
+    <div class="contenu activeContenu" data-anim="1">
+      <form role="form">
+          <div class="row setup-content" id="VerifyEmail-step">
+              <div class="col-xs-12">
+                  <div class="col-md-12">
+                       <br/>
+                      <div class="form-horizontal">
+                          <form  role="form">
+                              <fieldset>
+                                <br/>
+                                <div class="form-group">
+                                  <label class="col-sm-3 control-label" for="card-holder-name">Votre Email</label>
+                                  <div class="col-sm-9">
+                                    <input  maxlength="100" type="email" required="required" class="form-control" placeholder="Votre Email"  />
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="col-sm-3 control-label" for="card-number">Mot de passe</label>
+                                  <div class="col-sm-9">
+                                   <input  maxlength="100" type="password" required="required" class="form-control" placeholder="Entrer Votre Mot de passe"  />
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="col-sm-3 control-label" for="card-number">Confirmation Mot de passe</label>
+                                  <div class="col-sm-9">
+                                   <input  maxlength="100" type="password" required="required" class="form-control" placeholder="Entrer Votre Mot de passe"  />
+                                  </div>
+                                </div>
+                              </fieldset>
+                          </form>
+                        </div>
+                        <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >suite</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+    <div class="contenu" data-anim="2">
+      <div class="row setup-content" id="ProfileSetup-step">
+          <div class="col-xs-12">
+              <div class="col-md-12">
+                   <br/>
+                  <div class="form-horizontal">
+                      <form  role="form">
+                          <fieldset>
+
+                            <legend>Enter Your Profile Information</legend>
+                            <br/>
+                            <div class="form-group">
+                              <label class="col-sm-3 control-label" for="card-holder-name">Votre Email</label>
+                              <div class="col-sm-9">
+                                <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Email"  />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-3 control-label" for="card-number">Votre Name</label>
+                              <div class="col-sm-9">
+                               <input maxlength="100" type="text" required="required" class="form-control" placeholder="Name" />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-3 control-label" for="card-number">Numéro de tel</label>
+                              <div class="col-sm-9">
+                               <input maxlength="100" type="text" required="required" class="form-control" placeholder="Numéro de tel" />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-3 control-label" for="card-number">Votre Address</label>
+                              <div class="col-sm-9">
+                               <input maxlength="100" type="text" required="required" class="form-control" placeholder="Address" />
+                              </div>
+                            </div>
+                            <div class="col-lg-6">
+                                 <div class="form-group">
+                                      <label class="col-sm-6 control-label" for="card-number">Votre Ville</label>
+                                      <div class="col-sm-6" style="padding-left:8px">
+                                       <input maxlength="100" type="text" required="required" class="form-control" placeholder="Ville" />
+                                      </div>
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-sm-3 control-label" for="card-number">Pays</label>
+                              <div class="col-sm-9">
+                               <select required="required" class="form-control" >
+                                    <option value="0">France</option>
+                                   <option value="pakistan">Espagne</option>
+                                   <option value="usa">USA</option>
+                               </select>
+                              </div>
+                            </div>
+                          </fieldset>
+                      </form>
+                  </div>
+                  <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Suite</button>
+              </div>
+          </div>
+      </div>
+
+    <div class="contenu" data-anim="3">
+        <h3>Lorem ipsum dolor sit amet. 3</h3>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis alias quod, dolores eum illum doloremque assumenda odio architecto, dolorum vitae nobis, quo deleniti ipsum.</p>
+    </div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+
+      const onglets = document.querySelectorAll('.onglets');
+const contenu = document.querySelectorAll('.contenu')
+let index = 0;
+
+onglets.forEach(onglet => {
+
+    onglet.addEventListener('click', () => {
+
+        if(onglet.classList.contains('active')){
+            return;
+        } else {
+            onglet.classList.add('active');
+        }
+
+        index = onglet.getAttribute('data-anim');
+        console.log(index);
+
+        for(i = 0; i < onglets.length; i++) {
+
+            if(onglets[i].getAttribute('data-anim') != index) {
+                onglets[i].classList.remove('active');
+            }
+
+        }
+
+        for(j = 0; j < contenu.length; j++){
+
+            if(contenu[j].getAttribute('data-anim') == index) {
+                contenu[j].classList.add('activeContenu');
+            } else {
+                contenu[j].classList.remove('activeContenu');
+            }
+
+
+        }
+
+
+    })
+
+})
+
+    </script>
+
+
+
+  </body>
+</html>
